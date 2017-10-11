@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		562208AB1F8E9AB700F73EAC /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 567C09331F8E87B500652E31 /* song.mp3 */; };
 		567C09061F8E847200652E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567C09051F8E847200652E31 /* AppDelegate.swift */; };
 		567C09081F8E847200652E31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567C09071F8E847200652E31 /* ViewController.swift */; };
 		567C090B1F8E847200652E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567C09091F8E847200652E31 /* Main.storyboard */; };
@@ -15,6 +14,7 @@
 		567C09101F8E847200652E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567C090E1F8E847200652E31 /* LaunchScreen.storyboard */; };
 		567C091B1F8E847200652E31 /* Audio_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567C091A1F8E847200652E31 /* Audio_PlayerTests.swift */; };
 		567C09261F8E847200652E31 /* Audio_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567C09251F8E847200652E31 /* Audio_PlayerUITests.swift */; };
+		56EA557D1F8EB1CE0029115A /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 56EA557C1F8EB1C60029115A /* song.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		567C09211F8E847200652E31 /* Audio PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Audio PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		567C09251F8E847200652E31 /* Audio_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio_PlayerUITests.swift; sourceTree = "<group>"; };
 		567C09271F8E847200652E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		567C09331F8E87B500652E31 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song.mp3; path = ../../../../../../Downloads/song.mp3; sourceTree = "<group>"; };
+		56EA557C1F8EB1C60029115A /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 		567C09041F8E847200652E31 /* Audio Player */ = {
 			isa = PBXGroup;
 			children = (
-				567C09331F8E87B500652E31 /* song.mp3 */,
 				567C09051F8E847200652E31 /* AppDelegate.swift */,
+				56EA557C1F8EB1C60029115A /* song.mp3 */,
 				567C09071F8E847200652E31 /* ViewController.swift */,
 				567C09091F8E847200652E31 /* Main.storyboard */,
 				567C090C1F8E847200652E31 /* Assets.xcassets */,
@@ -235,7 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				562208AB1F8E9AB700F73EAC /* song.mp3 in Resources */,
+				56EA557D1F8EB1CE0029115A /* song.mp3 in Resources */,
 				567C09101F8E847200652E31 /* LaunchScreen.storyboard in Resources */,
 				567C090D1F8E847200652E31 /* Assets.xcassets in Resources */,
 				567C090B1F8E847200652E31 /* Main.storyboard in Resources */,
