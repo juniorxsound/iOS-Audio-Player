@@ -7,19 +7,38 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
-
+    
+    //Instantiate the AVFoundation audio player class
+    var player: AVAudioPlayer = AVAudioPlayer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        do {
+            //Set the path to the audio file (comes from the bundle)
+            let pathToSong = Bundle.main.path(forResource: "song", ofType: "mp3")
+            
+
+            //Try instantiating the audio player using the path to the song
+            try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: pathToSong!) as URL)
+
+        } catch {
+
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
+    @IBAction func PressPlay(_ sender: Any) {
+        player.play()
+    }
 
 }
 
