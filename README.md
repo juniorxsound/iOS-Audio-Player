@@ -1,4 +1,3 @@
-### Problem set 2 - Audio for iOS
-#### Instructor: Jong Wook Kim
-#### Name: Or Fleisher
+### iOS Audio Player
+A simple iOS Audio Player written in Swift
 ![Screenshot](screenshot.png)
